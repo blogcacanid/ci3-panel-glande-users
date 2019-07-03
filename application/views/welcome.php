@@ -1,6 +1,3 @@
-<!-- main content start-->
-<div id="page-wrapper">
-    <div class="main-page">
         <div class="agile3-grids">
 		
             <div class="grid_3 grid_4 w3_agileits_icons_page">
@@ -40,5 +37,3 @@
 
         </div>
         <!--inner block end here-->
-    </div>
-</div>

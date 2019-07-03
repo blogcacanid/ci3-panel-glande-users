@@ -1,6 +1,6 @@
 <?php if (!defined('BASEPATH')) exit('No direct script access allowed');
 
-class Auth extends CI_Controller
+class Auth_1 extends CI_Controller
 {
 	function __construct()
 	{
@@ -356,6 +356,10 @@ class Auth extends CI_Controller
 				if ($this->tank_auth->change_password(
 						$this->form_validation->set_value('old_password'),
 						$this->form_validation->set_value('new_password'))) {	// success
+                                        $data = array('pagetitle' => 'Change Password');
+                                        $this->load->view('design/header'); //memanggil template header
+                                        $this->load->view('auth/change_password_form', $data); //memanggil view change_password_form
+                                        $this->load->view('design/footer'); //memanggil template footer
 					$this->_show_message($this->lang->line('auth_message_password_changed'));
 
 				} else {														// fail

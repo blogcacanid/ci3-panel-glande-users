@@ -1,2 +1,2 @@
-# ci3-panel-glande-users
-Admin Panel Glance Design User Management CodeIgniter 3
+# ci3-panel-glande-final
+Admin Panel Glance Design Final CodeIgniter 3

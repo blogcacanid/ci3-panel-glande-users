@@ -1,8 +1,6 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 ?>
-<!-- main content start-->
-<div id="page-wrapper">
     <div class="main-page">
         <div class="col-md-4 compose-left">
             <div class="folder widget-shadow">
@@ -109,5 +107,3 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         </div>
         <div class="clearfix"> </div>	
     </div>
-
-</div>
