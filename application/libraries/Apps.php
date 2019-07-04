@@ -1,9 +1,9 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
 class Apps {
-    var $title = "Belajar CodeIgniter 3"; // Judul untuk aplikasi
+    var $title = "Admin Panel Glance Design Final CodeIgniter 3"; // Judul untuk aplikasi
     var $release = "Version 3.0.1"; // Versi dari aplikasi
-    var $project_code = "BC3"; // untuk  penulisan Title yang lebih pendek
+    var $project_code = "APGDF"; // untuk  penulisan Title yang lebih pendek
     var $ver = "v3.0.1"; // untuk penulisan versi yang lebih pendek
 
     var $copyright = "Copyright &copy;";

@@ -4,7 +4,7 @@
 </div>
         <!--footer-->
         <div class="footer">
-           <p>&copy; 2018 Glance Design Dashboard. All Rights Reserved | Design by <a href="https://w3layouts.com/" target="_blank">w3layouts</a></p>
+           <p><?php echo $this->apps->copyright; ?> 2018 <?php echo $this->apps->title; ?>. All Rights Reserved</p>
         </div>
     <!--//footer-->
         </div>

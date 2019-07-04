@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>Glance Design Dashboard an Admin Panel Category Flat Bootstrap Responsive Website Template | Login Page :: w3layouts</title>
+<title><?php echo $this->apps->title; ?> | <?php echo $this->apps->project_code; ?></title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="Glance Design Dashboard Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
@@ -142,9 +142,9 @@ $captcha = array(
         </div>
     </div>
     <!--footer-->
-    <div class="footer">
-       <p>&copy; 2018 Glance Design Dashboard. All Rights Reserved | Design by <a href="https://w3layouts.com/" target="_blank">w3layouts</a></p>		
-    </div>
+        <div class="footer">
+           <p><?php echo $this->apps->copyright; ?> 2018 <?php echo $this->apps->title; ?>. All Rights Reserved</p>
+        </div>
     <!--//footer-->
 <!--	</div>-->
 		
